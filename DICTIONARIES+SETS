@@ -1,0 +1,61 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct 21 15:56:12 2020
+
+@author: lenovo
+"""
+
+
+#title = "teddybear"
+#genre = "afrobeats"
+
+#lead artist
+#artist = "mr_eezy"
+#durationInSeconds = 350
+#yearOfRelease = 2019
+#countryOfRelease = "ghana"
+
+#main featured artist unknown
+#featuredArtist = "simbatags"
+#numberOfAwards = 7.5
+#producer = "mashroommedia"
+
+favorite_song ={
+    'TITLE':'teddybear',
+    'GENRE':'afrobeats',
+    'ARTIST':'mr_eezy',
+    'DURATION':'350',
+    'PRODUCER':'mashroommedia',
+    'featuredArtist': 'simbatags',
+    'countryofRelease': 'ghana',
+    'yearOfRelease':'2019'
+   }
+
+# looping through the keys of favorite_song.
+
+for name in sorted(favorite_song.keys()):
+    print(f"{name.title()},is a keyword for listing songs on our website.")
+    
+    
+    
+    
+    
+#LOOPING THROUGH THE VALUES OF THE LIST
+    
+print("These are major features of my favorite song")
+
+for features in favorite_song.values():
+    print(favorite_song.values())
+    
+    
+ 
+    
+    
+# looping to create key:value pairing units
+    
+    
+for key,value in favorite_song.items():
+    print(f"\nkey:{key}")
+    print(f"value:{value}")
+    
+    
